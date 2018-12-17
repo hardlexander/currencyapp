@@ -1,0 +1,14 @@
+version: '2'
+services:
+  app:
+    build: ./app
+    ports:
+     - "3000:3000"
+    depends_on:
+     - db
+    environment:
+     - DATABASE_HOST=db
+    volumes:
+     - ./api
+  db:
+    build: ./database
