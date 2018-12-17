@@ -15,5 +15,8 @@ But error happens, you can run the app locally manually by:
 
   - Create MySQL database in your localhost with my sql script in database/database.sql
   - Configure file app/api/dbconnection.js according to your mysql username and password
-  - Go to app/api and run "npm start" in your terminal
+  - Go to directory app/api -> "cd app/api"
+  - Sun npm install
+  - Sun npm start
+  - The app will be running in 127.0.0.1:3000
 
